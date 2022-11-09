@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueService.API", "QueueService.API\QueueService.API.csproj", "{9BDAC757-307E-4CEE-8688-509EBC5A0F47}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A1667E96-3918-4E41-8FC4-52D2144C71CF} = {A1667E96-3918-4E41-8FC4-52D2144C71CF}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueService.BL", "QueueService.BL\QueueService.BL.csproj", "{A1667E96-3918-4E41-8FC4-52D2144C71CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BDAC757-307E-4CEE-8688-509EBC5A0F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BDAC757-307E-4CEE-8688-509EBC5A0F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDAC757-307E-4CEE-8688-509EBC5A0F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BDAC757-307E-4CEE-8688-509EBC5A0F47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1667E96-3918-4E41-8FC4-52D2144C71CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1667E96-3918-4E41-8FC4-52D2144C71CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1667E96-3918-4E41-8FC4-52D2144C71CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1667E96-3918-4E41-8FC4-52D2144C71CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4077657-C1F4-4BD3-939B-6E24DF177663}
+	EndGlobalSection
+EndGlobal
